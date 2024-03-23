@@ -18,16 +18,16 @@ function CalcularSimple(){
 
        
     if(media <= 560){
-        resultado.innerHTML = `Sua média, com cota nortista, é: ${media.toFixed(2)}`
+        resultado.innerHTML = `Sua média simples é: ${media.toFixed(2)}`
         img.setAttribute('src', 'img/imagemBaixa.jpg')
     } else if (media <= 660){
-        resultado.innerHTML = `Sua média, com cota nortista, é: ${media.toFixed(2)}`
+        resultado.innerHTML = `Sua média simples é: ${media.toFixed(2)}`
         img.setAttribute('src', 'img/imagemRuim.jpg')
     } else if (media <= 760){
-        resultado.innerHTML = `Sua média, com cota nortista, é: ${media.toFixed(2)}`
+        resultado.innerHTML = `Sua média simples é: ${media.toFixed(2)}`
         img.setAttribute('src', 'img/imagemModerada.jpg')
     } else {
-        resultado.innerHTML = `Sua média, com cota nortista, é: ${media.toFixed(2)}`
+        resultado.innerHTML = `Sua média simples é: ${media.toFixed(2)}`
         img.setAttribute('src', 'img/imagemBoa.jpg')
     }
 resultado.style.textAlign = 'center'
