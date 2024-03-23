@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasculhos de JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>Sua nota</h1>
+   </header>
+
+  <section class="flex">
+     
+    <h4>Linguagem:</h4>
+        <input type="number" name="linguagem" id="linguagem">
+    <h4>Humanas:</h4>
+        <input type="number" name="humanas" id="humanas">
+    <h4>Naturaza:</h4>
+        <input type="number" name="natureza" id="natureza">
+    <h4>Matemática:</h4>
+        <input type="number" name="mate" id="mate"> 
+    <h4>Redação:</h4>
+       <input type="number" name="redação" id="redação">
+
+      </section>
+
+
+    <div class="bottons">
+       <div class="escolha_primeira">
+          <button type="button" onclick="CalcularSimple()">
+            média simples
+          </button>
+       </div>
+
+       <div class="escolha_segunda">
+           <button type="button" onclick="CalcularCota()">
+             média com cota nortista
+          </button>
+       </div>
+    </div>
+      
+
+
+<div class="opcao">
+  <div id="resultado">
+   
+  </div>
+  
+  <div id="resultadoCota">
+    
+  </div>
+
+</div>
+
+
+
+ 
+  
+<script src="script.js"></script>
+
+</body>
+</html>
